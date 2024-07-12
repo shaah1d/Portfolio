@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+body {
+  color: #242424;
+  background-color: rgb(255, 255, 255);
+}
+.heading {
+  font-size: 32px;
+}
+.active-link {
+  text-decoration: underline; 
+  font-weight: bold;
+}
+
+.navbar-elements a {
+  color: #242424;
+  text-decoration: none;
+}
+.navbar-elements {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+span {
+  color:rgb(26, 240, 169);
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+}
+.profilepic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+ margin-top: 8rem;
+}
