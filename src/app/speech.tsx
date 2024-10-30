@@ -67,6 +67,7 @@ const Speech: React.FC<SpeechProps> = ({ response }) => {
       <div className='w-[150px] h-[150px] rounded-full object-cover text-center text-white shadow-2xl bg-yellow-500 shadow-yellow-700/60 hover:shadow-yelow-600/70 transition-shadow duration-300 mb-4 flex justify-center items-center'>
       {isLoading ? <span className="loading loading-dots loading-lg"></span> : <div>shaah1d</div> }
      </div>
+   
       <audio 
         ref={audioRef} 
         style={{ display: 'none' }} 
