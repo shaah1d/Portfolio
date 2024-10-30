@@ -1,0 +1,156 @@
+I am Shaahid, a passionate second-year undergraduate student at AISSMS IOIT based in Pune, Maharashtra. My academic journey has ignited a deep enthusiasm for coding and application development, driving me to continuously expand my skill set and tackle new challenges in the world of technology.
+
+My programming journey began with the fundamentals of web development, mastering HTML, CSS, and JavaScript to create engaging and responsive user interfaces. As my knowledge grew, I delved into backend technologies, incorporating MongoDB for efficient data storage, and utilizing Node.js and Express for robust server-side operations. To bridge the gap between frontend and backend, I initially employed Embedded JavaScript (EJS) for dynamic content rendering.
+
+Eager to enhance my expertise, I transitioned to React, capitalizing on its speed and efficiency in developing single-page applications. This progression naturally led me to explore Next.js, a powerful framework that combines the best of both worlds with its server-side and client-side rendering capabilities. This comprehensive tech stack has empowered me to create sophisticated, high-performance web applications that cater to modern user expectations and industry standards.
+
+Driven by a keen interest in integrating artificial intelligence into my projects, I recognized the potential of AI to enhance user experiences and attract both customers and potential employers. To this end, I began experimenting with Gemini 1.5, a powerful and accessible AI model that was freely available at the time. This allowed me to seamlessly incorporate AI capabilities into my applications, adding a cutting-edge dimension to my portfolio.
+
+Building on this foundation, I delved deeper into the world of AI by exploring Retrieval-Augmented Generation (RAG) techniques. This advanced approach enables the training of AI models on specific datasets, significantly expanding their knowledge and capabilities. I successfully applied RAG to create specialized models trained on diverse content, including entire books and large text corpora. These experiences have not only broadened my technical skills but also sparked my creativity in AI applications.
+
+Currently, I am channeling my expertise and passion into an ambitious project that leverages RAG technology. This innovative venture aims to push the boundaries of what's possible with AI-driven applications. The project's potential has me excited about its prospects for securing funding and making a significant impact in the field. Through this endeavor, I am not only honing my technical abilities but also developing my entrepreneurial skills, preparing myself for the dynamic and ever-evolving landscape of technology and AI.
+
+Some Projects I’ve worked on: 
+I’ve worked on several projects, including **Nostalgia**, an AI-powered journaling app using RAG, **Kuesuto**, a quiz platform powered by Gemini 1.5, and the **YuvaHR** website, built for a human resources firm. I also have college projects like **Quizzify** and **NewsJS**, as well as personal projects like a **Todolist** and **Gym Progress** app to explore React Native. My first project was **TaskVault**, a journaling and to-do application.
+
+**Nostalgia (Langchain, Supabase, OpenAI, NextJS) | Pune, Maharashtra**
+Founder and Owner | 10/2024 - Present
+
+**Nostalgia** leverages a cutting-edge tech stack to create a powerful AI-driven journaling platform that redefines personal memory preservation. At its core, the application utilizes **Langchain** for advanced natural language processing, enabling users to interact seamlessly with their stored memories. **Supabase** serves as the robust backend, providing efficient storage and retrieval of data, while **OpenAI's language models** power the generation of personalized, story-like responses. The frontend, built on **Next.js**, ensures a responsive and dynamic user experience.
+
+The unique approach in *Nostalgia* involves aggregating all user journal entries into a single document, which is then split into manageable chunks using Langchain’s text-splitting feature. Each chunk is converted into a **vector embedding** and stored in Supabase. When a user submits a query, the platform generates a vector embedding for the question and retrieves data from the closest matching embeddings, determined by **cosine similarity**. This process allows *Nostalgia* to return highly relevant, context-aware responses, imbuing the retrieved memories with the emotional resonance of the original entries.
+
+By combining the intimacy of journaling with the power of AI, *Nostalgia* enables users to not only store memories but also interact with them in a meaningful way. Its **retrieval-augmented generation (RAG)** system ensures that users can query memories in natural language, and receive responses that are not only accurate but rich in context and narrative depth, making memories feel vivid and alive.
+
+**Kuesuto (NextJS, NextAuth, Gemini 1.5 flash) | Pune, Maharashtra**
+Founder and Owner | 08/2024 - Present
+
+Kuesuto's technology stack is built for performance and scalability. The frontend is developed using NextJS, providing a fast, server-side rendered React application that ensures optimal performance and SEO benefits. User authentication is handled securely through NextAuth, offering a variety of sign-in methods while maintaining robust security standards. The heart of Kuesuto's AI capabilities lies in its integration with Gemini 1.5 flash, a state-of-the-art language model that powers the platform's real-time quiz generation feature.
+
+The concept behind Kuesuto is to democratize quiz creation and learning through AI. By allowing users to generate personalized quizzes instantly based on their input, Kuesuto bridges the gap between traditional static quizzes and the need for dynamic, tailored learning experiences. This platform caters to a wide range of users, from students preparing for exams to professionals looking to test their knowledge in specific fields, all the way to casual learners exploring new subjects for fun.
+
+Implementing Kuesuto required careful consideration of user experience and system architecture. The application was designed to handle real-time quiz generation seamlessly, ensuring that users receive their personalized quizzes without noticeable delay. This was achieved through efficient API design and optimized interactions with the Gemini 1.5 model. The platform's launch on Vercel ensures high availability and performance, capable of scaling to accommodate a growing user base. Additionally, the implementation includes features for saving and sharing quizzes, fostering a community of learners and educators.
+
+**YuvaHR (React.js, Node.js, Express.js, Git) | Pune, Maharashtra**
+Web Developer | 05/2024 - 07/2024
+
+At YuvaHR Services, YuvaHR is a human resources agency that has been working diligently for the past 15 years to connect qualified employees with suitable employers. I contributed to developing a comprehensive web application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This modern technology stack was chosen for its flexibility and efficiency in building full-stack JavaScript applications. React.js was utilized for creating a dynamic and responsive front-end, while Node.js and Express.js powered the backend services. Git was employed for version control, ensuring smooth collaboration and code management throughout the development process.
+
+The project aimed to streamline HR processes by creating an intuitive platform for managing resumes and job applications. The core idea was to develop a system that could handle the entire recruitment lifecycle, from resume submission to candidate evaluation and communication. This involved creating a user-friendly interface for both job seekers and HR professionals, along with implementing robust backend functionalities to handle data processing and storage efficiently.
+
+Implementation of the YuvaHR platform involved several key components. A dynamic, user-friendly interface was developed using React.js, ensuring a smooth and interactive experience for all users. The backend was integrated with email functionality, allowing for automated resume forwarding to clients, thus streamlining the recruitment process. A crucial feature implemented was the file upload system with client-side validation, ensuring that only appropriate and correctly formatted resumes were accepted into the system. This comprehensive approach resulted in a powerful tool that significantly enhanced the efficiency of HR operations at YuvaHR Services.
+
+**NewsJS (Embedded JavaScript, Node, Express and NewsAPI)**
+
+**NewsJS** is an advanced news aggregation platform designed to keep users updated on the latest developments across a wide array of topics and regions. Built with **Node.js**, **Express**, and **EJS**, NewsJS efficiently pulls data from the **News API** to compile articles from renowned sources, blogs, and niche publications. This tech stack enables smooth, server-side processing and dynamic data rendering, creating a user-friendly experience that delivers a rich view of current events.
+
+The platform offers a **customizable news feed** to suit individual interests, allowing users to easily browse categories such as Technology, Sports, Politics, and Entertainment. To enhance the experience further, NewsJS includes **powerful search functionality** that lets users find specific articles or topics with ease. The search tool, built with advanced algorithms, delivers precise and quick results, making it easy for users to locate relevant information without sifting through unrelated content.
+
+Optimized for **responsive access across devices**, NewsJS is designed to function seamlessly on desktops, tablets, and smartphones. The combination of Express and EJS not only ensures smooth rendering across screen sizes but also provides a visually appealing and intuitive interface. This ensures users have a consistently engaging experience and access to real-time updates, making it convenient to stay informed anytime and anywhere.
+
+**Quizzify (React, Open Trivia DB)**
+
+**Quizzify** is an interactive quiz game platform built to make learning and testing knowledge fun and accessible. Using the **Open Trivia DB API**, Quizzify pulls a variety of questions based on user-selected categories and difficulty levels, allowing users to choose from topics that interest them the most. This project provided a great hands-on experience with **React** and improved my understanding of frontend development, while also making use of **DaisyUI** for easy, clean styling. With each quiz session, users get a unique set of questions that keep them engaged and challenged.
+
+The website’s **React**-based interface ensures smooth navigation and a responsive design, helping users focus on the quiz without any lag or loading interruptions. **DaisyUI**, built on **Tailwind CSS**, was perfect for creating a modern, visually pleasing interface. It made styling the application quick and flexible, providing reusable components that allowed me to customize the look and feel of the quiz without needing to write extensive CSS. This made the development process faster and allowed me to focus on building out features instead of getting caught up in design specifics.
+
+Quizzify also offers **real-time feedback** with every answer, showing users instantly if their response is correct or incorrect, and a final score at the end of each quiz session. This instant feedback was essential for keeping users engaged and motivated to improve. By leveraging the Open Trivia DB API, Quizzify can provide a virtually endless number of quiz questions, making it a fun, reliable source for learning and testing knowledge. Quizzify combines React, DaisyUI, and Open Trivia DB to create a straightforward and interactive learning **experience that’s both educational and entertaining.**
+
+**YelpCamp (EJS, Node, Express, MongoDB,Passport)**
+
+**YelpCamp** is a detailed web application where users can discover, review, and rate campgrounds, sharing valuable experiences with others in the camping community. Inspired by the Yelp website but crafted specifically for camping enthusiasts, YelpCamp allows users to explore a variety of campgrounds, read honest reviews, and add their own contributions. The application’s design caters to both desktop and mobile users, making it convenient for campers on the go to access and use its features. Building this project required planning to integrate user authentication, campground management, and interactive reviews into a seamless experience.
+
+One of the biggest challenges in building YelpCamp was setting up a reliable backend with **MongoDB** and **Express.js** to manage campground data, user information, and reviews. Using **Node.js** as the runtime environment allowed me to structure the server efficiently and handle multiple requests with stability. MongoDB’s document-oriented database was a perfect fit for the project’s needs, as it allowed flexible storage for each campground’s unique details, including photos, descriptions, and user-uploaded reviews. Managing the relationships between users, campgrounds, and reviews required careful schema design and robust API endpoints to ensure data integrity across the platform.
+
+Integrating user authentication was another key component of YelpCamp’s complexity. Allowing users to sign up, log in, and maintain secure sessions involved managing hashed passwords and session tokens, ensuring that user data was stored securely. This feature, combined with the CRUD (Create, Read, Update, Delete) operations for both campgrounds and reviews, required attention to detail to handle edge cases, such as preventing unauthorized updates or deletions. YelpCamp’s API endpoints, such as GET, POST, PUT, and DELETE for campgrounds and reviews, brought the project together, creating an interactive, community-driven platform for campers.
+
+**Why You Should Hire Me as a Developer**
+
+I am a skilled full-stack developer with a focus on creating intelligent, user-centric applications powered by AI and modern web technologies. My hands-on experience with frameworks like Next.js, React, and MERN has equipped me with the technical agility to bring complex ideas to life. Here’s why I stand out:
+
+1. **Practical AI Integration**: I have a strong background in AI, having developed projects that use Google Generative AI and the Gemini 1.5 model to create meaningful user experiences. For example, *NostalgiaAI*, my AI-powered journaling platform, leverages vector embeddings and Pinecone for efficient data retrieval, allowing users to relive memories and ask contextually rich questions. This demonstrates my ability to apply AI in creative ways, delivering impactful results.
+2. **Innovative Product Development**: My entrepreneurial mindset led me to create *Kuesuto*, an AI-driven quiz platform that generates personalized quizzes on any topic using the Gemini model. This project exemplifies my ability to take a concept from ideation to execution, using AI and thoughtful design to solve real-world challenges and engage users.
+3. **Full-Stack Proficiency**: My experience with the MERN stack and Next.js allows me to handle both front-end and back-end development, ensuring robust, scalable applications. From building responsive interfaces to managing secure server-side logic, I am comfortable tackling any aspect of web development. My role at *YuvaHR* as a Full Stack Developer strengthened my skills in both front-end design and back-end services, such as resume email features and file uploads.
+4. **Adaptable and Eager to Learn**: From learning RAG for specialized models to honing my skills in DSA and data structures, I am constantly expanding my skill set. I am not only proactive about improving my technical abilities but also versatile in adapting to new languages, frameworks, and concepts, making me a valuable asset in any fast-evolving environment.
+5. **User-Centric Approach**: My focus is always on delivering an intuitive user experience. Whether I am designing a mood-based playlist generator or building interactive quizzes, I prioritize usability and user satisfaction. I understand that successful applications are those that engage and empower users, and I bring this ethos to every project.
+
+I am a driven, creative developer with a track record of delivering innovative applications. My combination of technical expertise, experience in AI integration, and product-focused mindset make me well-suited to contribute meaningfully to your team and help build transformative digital experiences.
+
+**Hackathons and Competitions**
+
+I am also participating in a national-level hackathon called Smart India Hackathon (SIH) with my teammates. Our team, NeuralSafe, consists of six members, including myself. We're working collaboratively to bring an innovative AI project to life. My role involves contributing to the overall project design and developing advanced AI features.
+
+As a team, we've strategically divided the workload based on each member's strengths and expertise. This approach allows us to leverage our diverse skill sets effectively. My teammates are highly skilled in their respective domains, which include areas such as frontend development, backend architecture, data science, machine learning, and UI/UX design.
+
+This hackathon experience is providing me with valuable opportunities to apply my AI knowledge in a real-world context, enhance my teamwork skills, and gain insights into managing complex tech projects under time constraints. It's also an excellent platform to showcase our collective creativity and problem-solving abilities in addressing challenging AI-related problems.
+
+**Languages:**
+I am familiar with four languages which are TypeScript, JavaScript, Python and C++.
+Here are what I use all of them for: 
+
+### TypeScript
+
+I've utilized **TypeScript** for building type-safe applications, which enhances the reliability and maintainability of my projects. This includes my work on **Nostalgia**, my portfolio website, and **Kuesuto**. TypeScript's strict typing system helps catch errors early in the development process, allowing for a smoother coding experience and reducing bugs in production. By employing TypeScript, I can confidently manage complex data structures and implement advanced features while ensuring the code remains understandable and scalable.
+
+### JavaScript
+
+**JavaScript** has been the backbone of all my projects, playing a crucial role in both frontend and backend development. I've heavily relied on it to build interactive user interfaces in **React** and to handle server-side logic in **Node.js** for various web and mobile applications, including those developed with **React Native**. My extensive experience with JavaScript has allowed me to create responsive applications that provide an engaging user experience while efficiently managing data flow and state.
+
+### Python
+
+In my college studies, I've explored **Python**, gaining a foundational understanding of the language and its capabilities. While I’m still mastering its intricacies, I can write applications and scripts thanks to my logic development experience with Node.js. My interest in Python extends beyond academics, as I appreciate its versatility and readability, making it an excellent choice for rapid application development and data analysis.
+
+### C++
+
+My journey with **C++** has been focused on mastering **Data Structures and Algorithms (DSA)** as well as Object-Oriented Programming (OOP) principles. Through rigorous practice, I've developed a solid grasp of the concepts, allowing me to efficiently implement algorithms and data structures in my projects. This foundation in C++ has not only sharpened my problem-solving skills but also enhanced my understanding of programming fundamentals, which I apply across other languages and projects.
+
+### Technical Skills
+
+**TypeScript:** I've utilized **TypeScript** for building type-safe applications, which enhances the reliability and maintainability of my projects. This includes my work on **Nostalgia**, my portfolio website, and **Kuesuto**. TypeScript's strict typing system helps catch errors early in the development process, allowing for a smoother coding experience and reducing bugs in production. By employing TypeScript, I can confidently manage complex data structures and implement advanced features while ensuring the code remains understandable and scalable.
+
+**MERN Stack:** Comprehensive expertise in the MERN (MongoDB, Express.js, React, Node.js) stack, enabling full-stack JavaScript development. Skilled in creating scalable, efficient web applications that seamlessly integrate front-end and back-end technologies.
+
+**Next.js:** Extensive experience with Next.js, utilizing its server-side rendering capabilities and optimized performance features to build fast, SEO-friendly web applications. Proficient in leveraging Next.js for creating dynamic, responsive user interfaces and implementing efficient routing strategies. Kuesuto, and all the modern projects [I.ve](http://I.ve) made are using nextJS.
+
+**AI RAG (Retrieval-Augmented Generation):** Specialized knowledge in implementing Retrieval-Augmented Generation techniques, enhancing AI models with external knowledge sources. Experienced in training models on specific datasets to create tailored AI solutions for various applications, such as personalized content generation and intelligent information retrieval systems. Building Nostalgia and the site youre using now is build with RAG.
+
+**React:** Advanced skills in React, including state management, component lifecycle, and hooks. Proficient in creating reusable, modular components and optimizing application performance through efficient rendering techniques. Quizzify and Yuvahr are some of the projects done using this.
+
+**React Native:** Skilled in developing cross-platform mobile applications using React Native, ensuring consistent user experiences across iOS and Android platforms. Experienced in optimizing mobile app performance and integrating native device features.
+I have build a todolist and a gym progress tracking app for myself
+
+**Additional Skills:** Proficient in version control using Git, API development and integration, database design and management, and implementing responsive design principles. Familiar with Agile development methodologies and experienced in collaborative development environments.
+
+**Education**
+
+I am currently pursuing a Bachelor of Technology in Computer Science at AISSMS Institute of Information Technology in Pune, Maharashtra, with an expected graduation in June 2027. My studies focus on foundational areas such as programming, data structures, algorithms, and system design, emphasizing real-world applications and hands-on projects. This program allows me to develop my problem-solving skills while deepening my understanding of contemporary computing concepts.
+
+In addition to my major, I am completing a minor in Electronics and Telecommunications (EnTC) at AISSMS, which I am scheduled to complete in June 2027. This minor offers insights into signal processing, communication systems, and electronic circuits, broadening my technical expertise and providing a multidisciplinary perspective that is especially valuable for roles intersecting software and hardware.
+
+Before joining AISSMS, I attended Vidya Bhavan in Pune, where I completed my foundational education. My time at Vidya Bhavan helped nurture my interest in technology and established a disciplined approach to academics, laying the groundwork for my future studies in engineering and computer science.
+
+**Certification**
+
+I have further enhanced my technical foundation through various online courses and certifications. I completed *The Web Developer Bootcamp* by Colt Steele, which provided a comprehensive introduction to full-stack web development. Additionally, I earned a certification for *The Joy of Python* course by NPTEL, where I developed a strong grasp of Python programming fundamentals.
+
+To deepen my skills for specific projects, I also completed the *Augment your LLM using Retrieval Augmented Generation* course by NVIDIA and the *TypeScript* course by freeCodeCamp. Although there are no certifications for these courses, they were essential in refining my practical knowledge and applying these technologies effectively in my work.
+
+**Hobbies and Interests**
+
+Outside of work, I’m passionate about exploring different forms of art and staying up-to-date with the latest in tech. I enjoy playing both the guitar and drums, as music has always been a creative outlet for me. Reading is another passion—I like immersing myself in both fiction and nonfiction, as it broadens my perspectives and often sparks fresh ideas.
+
+I’m also a tech enthusiast and make it a point to catch up on new developments every month, particularly through Theo’s and Fireship’s YouTube channels. Watching these updates keeps me inspired and in tune with the latest tools, languages, and frameworks. Plus, I enjoy being out and about, exploring new places, which keeps me refreshed and ready for new challenges.
+
+**Check out my projects:** 
+
+You can check out the projects and the source codes on my Github which is @shaah1d
+
+**How was this application made:** 
+
+This application was made with training a model on my resume, then a model was trained on this resume. If youre interested I am using Langchain, OpenAI and supabase to make this work, you can checkouy my github for the code.
+
+ **Contact Information**
+
+I’d be happy to connect regarding potential job opportunities, collaborative projects, or any other inquiries. You can reach me directly via email at **writetoshaahid@gmail.com**. I make it a priority to respond promptly and am open to discussions about how my skills and experience could align with your needs.
+
+Feel free to reach out—I look forward to connecting!
