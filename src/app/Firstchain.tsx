@@ -67,7 +67,7 @@ const Firstchain: React.FC<InfoDisplayProps> = ({ info }) => {
                     <>
                         <Speech response={res} />
                         
-                        <div className="mt-4 text-yellow-500 font-mono text-lg">
+                        <div className="mt-4 text-yellow-500 font-mono text-lg sm:text-md">
                             {res}
                         </div>
 
