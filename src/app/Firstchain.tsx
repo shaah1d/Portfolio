@@ -68,13 +68,10 @@ const Firstchain: React.FC<InfoDisplayProps> = ({ info }) => {
                         <Speech response={res} />
                         
                         <div className="mt-4 text-yellow-500 font-mono text-lg sm:text-md">
-                            {res}
+                        Hello, and welcome! I’m Shaahid, here to assist you with any questions you may have. This model is trained using RAG on my resume. Feel free to ask about my skills, projects, or anything else you’d like to know!
                         </div>
 
-                        <h1 className="text-yellow-500 font-bold text-sm text-center mt-5 ">
-                       Resume.
-
-                        </h1>
+                      
                     </>
              
             </div>

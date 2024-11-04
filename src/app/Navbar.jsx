@@ -44,7 +44,9 @@ function Navbar() {
       </ul>
     </div>
     <div className="navbar-end">
-  
+    <a href="/resume.pdf"  className='btn text-white'download>
+   Resume
+    </a>
     </div>
   </div>
   )
